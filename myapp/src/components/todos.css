@@ -1,0 +1,24 @@
+.todos-container {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.del-icon {
+    text-align: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
